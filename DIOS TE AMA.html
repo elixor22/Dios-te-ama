@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre el camino para aceptar a Dios en tu vida y sentir Su paz.">
+    <meta name="keywords" content="Dios, fe, amor, Jesucristo, salvación, Biblia">
+    <meta name="author" content="Ministerio Evangelístico Vida Nueva">
+    <title>Acepta a Dios en tu corazón</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?sunrise,clouds,cross') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            padding: 20px;
+            animation: fadeInBody 1.5s ease-in-out;
+        }
+        @keyframes fadeInBody {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            display: inline-block;
+            max-width: 700px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+            color: black;
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1, h2 {
+            color: #DAA520;
+        }
+        .step {
+            margin: 20px 0;
+            padding: 15px;
+            border-left: 5px solid #DAA520;
+            background: rgba(218, 165, 32, 0.1);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .step:hover {
+            background: rgba(218, 165, 32, 0.4);
+            transform: scale(1.05);
+        }
+        .details {
+            display: none;
+            margin-top: 10px;
+            font-size: 14px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        button {
+            background: #DAA520;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+            margin: 10px;
+        }
+        button:hover {
+            background: #FFD700;
+            transform: scale(1.08);
+        }
+    </style>
+    <script>
+        function toggleDetails(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none" || element.style.display === "") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Recibe el amor de Dios</h1>
+        <p>Descubre el camino para aceptar a Dios en tu vida y sentir Su paz.</p>
+        
+        <div class="step" onclick="toggleDetails('step1')">
+            <h2>Paso 1: Reconoce tu necesidad</h2>
+            <div class="details" id="step1">
+                <p>Todos hemos pecado y nos hemos alejado de Dios. La Biblia dice: "Por cuanto todos pecaron, y están destituidos de la gloria de Dios" (Romanos 3:23).</p>
+                <p>El primer paso para aceptar a Dios es reconocer que necesitamos Su amor y perdón.</p>
+            </div>
+        </div>
+        
+        <div class="step" onclick="toggleDetails('step2')">
+            <h2>Paso 2: Cree en Jesucristo</h2>
+            <div class="details" id="step2">
+                <p>Dios nos ama tanto que envió a Su Hijo, Jesucristo, para salvarnos. "Porque de tal manera amó Dios al mundo, que ha dado a su Hijo unigénito, para que todo aquel que en él cree, no se pierda, mas tenga vida eterna" (Juan 3:16).</p>
+                <p>Jesús murió por nuestros pecados y resucitó para darnos una nueva vida.</p>
+            </div>
+        </div>
+        
+        <div class="step" onclick="toggleDetails('step3')">
+            <h2>Paso 3: Arrepiéntete y ora</h2>
+            <div class="details" id="step3">
+                <p>El arrepentimiento significa cambiar de dirección, alejarse del pecado y seguir a Dios. La Biblia dice: "Si confesamos nuestros pecados, él es fiel y justo para perdonar nuestros pecados, y limpiarnos de toda maldad" (1 Juan 1:9).</p>
+                <p>Haz una oración sincera pidiendo a Dios que te perdone y transforme tu vida.</p>
+            </div>
+        </div>
+        
+        <div class="step" onclick="toggleDetails('step4')">
+            <h2>Paso 4: Vive en la fe</h2>
+            <div class="details" id="step4">
+                <p>Seguir a Dios es un compromiso diario. "El justo por la fe vivirá" (Romanos 1:17).</p>
+                <p>Busca crecer en tu relación con Dios a través de la oración, la lectura de la Biblia y asistiendo a una comunidad de fe.</p>
+            </div>
+        </div>
+        
+        <p><strong>Oración:</strong> "Señor Jesús, reconozco que soy pecador. Te pido perdón y te invito a mi corazón. Amén." </p>
+        <button onclick="window.open('https://www.facebook.com/reel/5616341581782700', '_blank')">Guarda tu corazon y tu mente</button>
+        <button onclick="window.open('https://maps.app.goo.gl/fSzoZjNmAsfmNb1J8', '_blank')">Templo cercano</button>
+        
+        <p><strong>Contacto:</strong> Ministerio Evangelístico Vida Nueva - <a href="tel:+56993157549">+56 9 9315 7549</a></p>
+    </div>
+</body>
+
+</html>
